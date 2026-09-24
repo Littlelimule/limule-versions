@@ -1,4 +1,17 @@
 {
   "schema": 1,
-  "items": []
+  "items": [
+    {
+      "id": "2026-09-25-bienvenue",
+      "kind": "lib",
+      "tag": { "fr": "Nouveau", "en": "New" },
+      "title": { "fr": "LimuleLib 3.0 est là", "en": "LimuleLib 3.0 is here" },
+      "text": { "fr": "Un nouveau menu, la santé du serveur et les mises à jour au même endroit.",
+                "en": "A new menu, server health and updates in one place." },
+      "points": { "fr": ["Page Santé", "Commandes !help"], "en": ["Health page", "!help commands"] },
+      "action": { "fr": "Voir le dépôt", "en": "See the repo" },
+      "url": "https://github.com/Littlelimule/Limulelibv3",
+      "until": "2026-10-31"
+    }
+  ]
 }
