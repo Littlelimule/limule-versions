@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "store": "",
+  "products": {
+    "limule": {
+      "name": "LimuleLib",
+      "version": "3.0.0",
+      "date": "2026-09-24",
+      "url": "https://github.com/Littlelimule/Limulelibv3",
+      "notes": {
+        "fr": ["Première version de la v3."],
+        "en": ["First release of v3."]
+      }
+    }
+  }
+}
