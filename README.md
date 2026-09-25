@@ -57,7 +57,7 @@ repli quand la langue du joueur manque.
 
 - `id` : unique et stable (un admin qui ferme l'annonce ne la revoit pas avant la réouverture du menu).
 - `kind` : `lib` (vitrine verte) ou `addon` (bleue).
-- Facultatifs : `points` (liste à droite), `action` + `url` (bouton), `from` / `until` (dates incluses),
+- Facultatifs : `src` (texte à côté de l'étiquette, ex. le nom de l'addon), `points` (liste à droite), `action` + `url` (bouton), `from` / `until` (dates incluses),
   `minLib` / `maxLib` (versions de la lib), `ifAddon` (seulement si cet addon est chargé),
   `ifMissing` (seulement s'il n'est pas installé).
 - 8 annonces au plus sont gardées.

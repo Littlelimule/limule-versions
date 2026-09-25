@@ -12,6 +12,54 @@
       "action": { "fr": "Voir le dépôt", "en": "See the repo" },
       "url": "https://github.com/Littlelimule/Limulelibv3",
       "until": "2026-10-31"
+    },
+    {
+      "id": "2026-09-25-discord-v3",
+      "kind": "addon",
+      "tag": { "fr": "Mise à jour", "en": "Update" },
+      "src": "Discord Suite",
+      "title": { "fr": "Discord Suite passe sur LimuleLib v3", "en": "Discord Suite moves to LimuleLib v3" },
+      "text": { "fr": "Le Client Secret se règle dans le menu, et l'onglet Santé vérifie ton application Discord.",
+                "en": "The Client Secret is set in the menu, and the Health tab checks your Discord app." },
+      "points": { "fr": ["Secret masqué", "Textes FR / EN", "Diagnostic en ligne"],
+                  "en": ["Hidden secret", "FR / EN texts", "Online checks"] },
+      "action": { "fr": "Voir les changements", "en": "See the changes" },
+      "url": "https://github.com/Littlelimule/limule-discord-suite/tree/v3",
+      "ifAddon": "limdiscord",
+      "until": "2026-10-31"
+    },
+    {
+      "id": "2026-09-25-test-simple",
+      "kind": "lib",
+      "tag": { "fr": "Test", "en": "Test" },
+      "title": { "fr": "Annonce minimale", "en": "Minimal announcement" },
+      "text": { "fr": "Ni points, ni bouton : seulement une étiquette, un titre et ce texte.",
+                "en": "No points, no button: just a tag, a title and this text." },
+      "until": "2026-09-30"
+    },
+    {
+      "id": "2026-09-25-test-cache-ifmissing",
+      "kind": "addon",
+      "tag": "Test",
+      "title": "NE DOIT PAS APPARAITRE (ifMissing)",
+      "text": "Discord Suite est installé, donc cette annonce reste cachée.",
+      "ifMissing": "limdiscord"
+    },
+    {
+      "id": "2026-09-25-test-cache-futur",
+      "kind": "lib",
+      "tag": "Test",
+      "title": "NE DOIT PAS APPARAITRE (from)",
+      "text": "Elle ne commence que le 1er décembre.",
+      "from": "2026-12-01"
+    },
+    {
+      "id": "2026-09-25-test-cache-minlib",
+      "kind": "lib",
+      "tag": "Test",
+      "title": "NE DOIT PAS APPARAITRE (minLib)",
+      "text": "Elle demande LimuleLib 9.0.",
+      "minLib": "9.0"
     }
   ]
 }
